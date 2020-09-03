@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304ae89f-5b8f-46c9-8520-a04fe16b9318" name="Default Changelist" comment="nado bilo .git ignore">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599131479072</updated>
       <workItem from="1599131480181" duration="3346000" />
-      <workItem from="1599141786075" duration="1017000" />
+      <workItem from="1599141786075" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="nado bilo .git ignore">
       <created>1599142603287</created>
@@ -69,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599142603287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nado bilo .git ignore">
+      <created>1599142829727</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599142829727</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,10 +101,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="nado bilo .git ignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="351" y="313" key="Github.ShareDialog" timestamp="1599141964679">
+    <state x="351" y="313" key="Github.ShareDialog" timestamp="1599143367341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="351" y="313" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599141964679" />
+    <state x="351" y="313" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599143367341" />
     <state x="298" y="120" key="Github.UntrackedFilesDialog" timestamp="1599141980582">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -103,9 +113,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599136203004" />
-    <state x="11" y="148" key="Vcs.Push.Dialog.v2" timestamp="1599142554489">
+    <state x="11" y="148" key="Vcs.Push.Dialog.v2" timestamp="1599142901838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="11" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599142554489" />
+    <state x="11" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599142901838" />
   </component>
 </project>
