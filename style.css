@@ -1,0 +1,12 @@
+.Cmtable{
+    border: black;
+
+    display: table-cell;
+}
+.cmdiv{
+    display:table ;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+   background-color: aquamarine;
+}
