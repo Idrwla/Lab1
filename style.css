@@ -29,14 +29,42 @@ table.Cmtable{
 
 input{
     cursor:pointer;
+    font-size: large;
 }
 div.newcm{
     position: relative;
-    top: 30px;
+
    /*left: 915px;*/
     float: right ;
-
+    display: table;
     width: 40%;
-    height: 250px;
+    height: 500px;
     background-color: slateblue;
+}
+.sendform{
+    text-align: center;
+   display: table-cell;
+    vertical-align: middle;
+    font-size: large;
+}
+#comment{
+    width: 400px;
+    height: 100px;
+}
+p#erremail.errcl{
+    color: red;
+}
+p#errtext.errcl{
+    color: red;
+}
+p#errradio.errcl{
+    color: red;
+}
+p.pcl{
+    position: relative;
+    left: 30%;
+    top:-15px;
+}
+ol{
+
 }

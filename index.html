@@ -4,35 +4,42 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
 </head>
 <body>
 <div class="cmdiv">
 
     <table class="Cmtable" border="1">
         <caption>The exist comments</caption>
-        <thead>
-        <td>№</td>
-        <td>User</td>
-        <td>Comment</td>
-        <td>Date</td>
-        </thead>
         <tr>
-            <td>1</td>
-            <td>Idrwla</td>
-            <td>hello home</td>
-            <td>2020</td>
+        <th>№</th>
+        <th>User</th>
+        <th>Comment</th>
+        <th>Date</th>
+        <th>Rating</th>
         </tr>
+
+            <tr>
+                <td id="curri">1</td>
+                <td>Idrwla</td>
+                <td>hello home</td>
+                <td>2020</td>
+                <td>5</td>
+            </tr>
+
+
 
     </table>
 
 
 </div>
 <div class="newcm">
-    <form>
-        <label for="email" >E-mail</label>
-        <input name="email" id="email" type="email" placeholder="Enter yor E-mail"> <p id="erremail"></p><br>
-        <label for="comment" >Comment</label>
-        <input name="comment" id="comment" type="text" placeholder="Enter your comment"> <p id="errtext"></p><br>
+    <form class="sendform" name="mainform" onsubmit="Valideete();Addrow()" method="post">
+        <label for="email" >E-mail:</label><br>
+        <input name="email" id="email" type="text" placeholder="Enter yor E-mail" autocomplete="off"> <p class="errcl" id="erremail" ></p>
+        <label for="comment" >Comment:</label><br>
+        <textarea name="comment" id="comment" placeholder="Enter your comment"> </textarea><p class="errcl" id="errtext"></p><p class="pcl">3/100</p><br>
         <p >Comment Level</p>
         <input name="level"  id="l1" value="1" type="radio">
         <label for="l1">1</label>
@@ -44,8 +51,8 @@
         <label for="l4">4</label>
         <input name="level" id="l5" value="5" type="radio">
         <label for="l5">5</label><br>
-        <p id="errradio"></p>
-        <input type="submit" value="Send">
+        <p  class="errcl" id="errradio"></p>
+        <input type="submit"  value="Send">
 
     </form>
 </div>
