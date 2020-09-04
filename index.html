@@ -22,7 +22,7 @@
 
             <tr>
                 <td id="curri">1</td>
-                <td>Idrwla</td>
+                <td>Idrwla@stud.com</td>
                 <td>hello home</td>
                 <td>2020</td>
                 <td>5</td>
@@ -35,7 +35,7 @@
 
 </div>
 <div class="newcm">
-    <form class="sendform" name="mainform" onsubmit="Valideete();Addrow()" method="post">
+    <form class="sendform" name="mainform" onsubmit="Valideete()" method="get">
         <label for="email" >E-mail:</label><br>
         <input name="email" id="email" type="text" placeholder="Enter yor E-mail" autocomplete="off"> <p class="errcl" id="erremail" ></p>
         <label for="comment" >Comment:</label><br>
@@ -52,7 +52,7 @@
         <input name="level" id="l5" value="5" type="radio">
         <label for="l5">5</label><br>
         <p  class="errcl" id="errradio"></p>
-        <input type="submit"  value="Send">
+        <input type="button" onclick="Valideete()" value="Send">
 
     </form>
 </div>

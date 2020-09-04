@@ -15,12 +15,13 @@ function Addrow(){
     var cel0 = trow.insertCell(0);
     var cel1 = trow.insertCell(1);
     var cel2 = trow.insertCell(2);
-    var cel3 = trow.insertCell(2);
+    var cel3 = trow.insertCell(3);
     var cel4 = trow.insertCell(4);
-    cel0.innerHTML =document.getElementById("curri")+1;
+    var n  = parseInt(document.getElementById("curri").innerHTML);
+    cel0.innerHTML =n+1;
     cel1.innerHTML = usercomment.email;
     cel2.innerHTML = usercomment.comment;
-    cel3.innerHTML=usercomment.date;
+    cel3.innerHTML=usercomment.date.getDate()+"/"+usercomment.date.getMonth()+"/"+usercomment.date.getFullYear() + "  "+ usercomment.date.getHours() +":"+usercomment.date.getMinutes();
     cel4.innerHTML=usercomment.rating;
     return table;
 }
@@ -62,6 +63,9 @@ function Valideete(){
     cel2.innerHTML = usercomment.comment;
     cel3.innerHTML=usercomment.date;
     cel4.innerHTML=usercomment.rating;*/
+    document.forms["mainform"]["email"].value ="";
+    document.forms["mainform"]["comment"].value ="";
+    document.forms["mainform"]["level"].value="";
     return Addrow();
 }
 
