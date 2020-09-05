@@ -25,6 +25,38 @@ function Addrow(){
     cel4.innerHTML=usercomment.rating;
     return table;
 }
+
+function AddrowDOM() {
+    var table1 = document.getElementById("table");
+    var row = document.createElement("tr");
+    var data1 = document.createElement("td");
+    var data2 = document.createElement("td");
+    var data3 = document.createElement("td");
+    var data4 = document.createElement("td");
+    var data5 = document.createElement("td");
+    row.appendChild(data1);
+    row.appendChild(data2);
+    row.appendChild(data3);
+    row.appendChild(data4);
+    row.appendChild(data5);
+    node1 = document.createTextNode(parseInt(document.getElementById("curri").innerHTML)+1);
+    node2=document.createTextNode(usercomment.email);
+    node3 = document.createTextNode(usercomment.comment);
+    node4 = document.createTextNode(usercomment.date.getDate()+"/"+usercomment.date.getMonth()+"/"+usercomment.date.getFullYear() + "  "+ usercomment.date.getHours() +":"+usercomment.date.getMinutes());
+    node5 = document.createTextNode(usercomment.rating);
+    data1.appendChild(node1);
+    data2.appendChild(node2);
+    data3.appendChild(node3);
+    data4.appendChild(node4);
+    data5.appendChild(node5);
+    table1.appendChild(row);
+
+
+
+
+return table1;
+
+}
 function Valideete(){
     var x = document.forms["mainform"]["email"].value;
     var y = document.forms["mainform"]["comment"].value;
@@ -66,6 +98,6 @@ function Valideete(){
     document.forms["mainform"]["email"].value ="";
     document.forms["mainform"]["comment"].value ="";
     document.forms["mainform"]["level"].value="";
-    return Addrow();
+    return AddrowDOM();
 }
 

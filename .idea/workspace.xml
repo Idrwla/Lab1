@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="304ae89f-5b8f-46c9-8520-a04fe16b9318" name="Default Changelist" comment="застрял на выводе данных на таблицу">
+    <list default="true" id="304ae89f-5b8f-46c9-8520-a04fe16b9318" name="Default Changelist" comment="Сделанооо">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
@@ -65,7 +65,8 @@
       <workItem from="1599131480181" duration="3346000" />
       <workItem from="1599141786075" duration="12028000" />
       <workItem from="1599205480088" duration="2026000" />
-      <workItem from="1599231902807" duration="11229000" />
+      <workItem from="1599231902807" duration="11849000" />
+      <workItem from="1599306272639" duration="2443000" />
     </task>
     <task id="LOCAL-00001" summary="nado bilo .git ignore">
       <created>1599142603287</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599240924943</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Сделанооо">
+      <created>1599243928252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599243928252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +134,8 @@
     <MESSAGE value="настроет css" />
     <MESSAGE value="настроен css" />
     <MESSAGE value="застрял на выводе данных на таблицу" />
-    <option name="LAST_COMMIT_MESSAGE" value="застрял на выводе данных на таблицу" />
+    <MESSAGE value="Сделанооо" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделанооо" />
   </component>
   <component name="WindowStateProjectService">
     <state x="351" y="313" key="Github.ShareDialog" timestamp="1599143367341">
@@ -141,9 +150,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599136203004" />
-    <state x="11" y="148" key="Vcs.Push.Dialog.v2" timestamp="1599240931776">
+    <state x="11" y="148" key="Vcs.Push.Dialog.v2" timestamp="1599243934135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="11" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599240931776" />
+    <state x="11" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599243934135" />
   </component>
 </project>
